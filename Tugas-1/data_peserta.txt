@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Gilang Segara Bening
+2. Email: gilangsegarabening@gmail.com
+3. Sistem Operasi yang digunakan: Windows 10 Home
+4. Akun Gitlab: github.com/bungspaces
+5. Akun Telegram: t.me/bunggilang
