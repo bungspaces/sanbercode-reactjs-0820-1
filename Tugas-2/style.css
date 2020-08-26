@@ -1,1 +1,27 @@
+body {
+    background-image: url(../Tugas-2/img/pattern.jpg);
+}
 
+section {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+}
+
+.logo {
+    float: left;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* Ubah position ke fixed, dan top ke 0 */
+
+}
+
+nav {
+    float: right;
+    line-height: 65px;
+    display: block;
+}
