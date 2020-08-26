@@ -2,7 +2,10 @@ body {
     background-image: url("img/pattern.jpg")
 }
 
+<<<<<<< HEAD
 /* nav */
+=======
+>>>>>>> 9ebafca3388bbe1985a961957803ad01c67a3086
 header{
     background: white;
     position: stxicky;
@@ -39,7 +42,7 @@ h5{
 }
 
 section{
-    margin: 0px 120px;
+    margin: 0px 120px 0px 120px;
     background-color: white;
     border: 1px transparent;
 }
@@ -65,7 +68,10 @@ h1 {
     
 }
 
+<<<<<<< HEAD
 /* bagian kontak*/
+=======
+>>>>>>> 9ebafca3388bbe1985a961957803ad01c67a3086
 .kontak {
     margin : 25px 100px 0px 100px;
     background-color: white;
@@ -84,4 +90,8 @@ tr {
 
 #backbutton_c{
     margin: 200px 120px 0px 120px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9ebafca3388bbe1985a961957803ad01c67a3086
