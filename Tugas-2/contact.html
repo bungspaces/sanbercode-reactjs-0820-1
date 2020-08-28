@@ -1,71 +1,82 @@
 <html>
 
-    <head>
+<header>
 
-        <title>Contact</title>
-        <meta charset="UTF-8">
+  <title>contact</title>
 
-        <link href="style.css" rel="stylesheet">
+</header>
 
-    </head>
+<body>
 
-    <div class="kontak">
+  <div style="padding: 10px; border: 1px solid #ccc">
 
-    <body>
+    <h1 style="text-align:center">Hubungi Kami</h1>
 
-        <fieldset>
+      <strong>Kantor :</strong>
+      Jl. M. H Thamrin No.2B
+      <br/>
+      <strong>Nomor Telepon :</strong>
+      021 - 8661 7209
+      <br/>
+      <strong>Email :</strong>
+      hello@bungspaces.com
 
-        <h1>Hubungi Kami</h1>
+    <h1 style="text-align:center">Kirimkan Pesan</h1>
 
-        <p>
-            <b>Kantor :</b> Jl. M. H. Thamrin No.2B <br>
-            <b>Nomor Telepon : </b> 021 - 8661 7209 <br>
-            <b>Email :</b> hello@bungspaces.com <br>
-        </p>
-        
-        <h1>Kirimkan Pesan</h1>
+    <div>
 
-            <table width="100%">
+      <div style="display: block; margin-bottom: 1em;">
+        <div style="display: inline-block; width: 150px; font-weight: bold; font-size: 16px;">
+          Nama 
+        </div>
+        <input style="display: inline-block;" type="text" name="name">
+      </div>
 
-                <tr>
-                    <th> Nama </th>
-                    <td><input type="text"></td>
-                </tr>
-                
-                <tr>
-                    <th>Email</th>
-                    <td><input type="text"></td>
-                </tr>
-            
-                <tr>
-                    <th>Jenis Kelamin</th>
-                    <td><input type="radio" name="jk" value="0" checked>Laki-laki</td>
-                </tr>
+      <div style="display: block; margin-bottom: 1em;">
+        <div style="display: inline-block; width: 150px; font-weight: bold; font-size: 16px;">
+          Email 
+        </div>
+        <input style="display: inline-block;" type="text" name="name">
+      </div>
 
-                <tr>
-                    <th></th>
-                    <td><input type="radio" name="jk" value="0" checked>Perempuan</td>
-                </tr>
+      <div style="display: block; margin-bottom: 1em;">
+        <div style="display: inline-block; width: 150px; font-weight: bold; font-size: 16px;">
+          Jenis Kelamin 
+        </div>
+        <div style="display: inline-block;">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Laki-laki</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Perempuan</label><br>
+        </div>
+      </div>
 
-                <tr>
-                    <th>Pesan Anda</th>
-                    <td><textarea cols="30" rows="5"></textarea></td>
-                </tr>
+      <div style="display: block; margin-bottom: 1em;">
+        <div style="display: inline-block; width: 150px; font-weight: bold; font-size: 16px;">
+          Pesan Anda 
+        </div>
+        <textarea cols="50" rows="5"></textarea>
+      </div>
 
-            </table>
+      <button>
 
-            <input type="submit" value="Kirim">
+        <a href="index.html" style="text-decoration: none; color: black;">Kirim</a>
 
-        </fieldset>
+      </button>
 
     </div>
 
-        <div id="backbutton_c">
+  </div>
 
-         <a href="index.html">Kembali ke home</a>
-         
-         </div>
+  <br/>
+  <br/>
 
-    </body>
-    
+  <a href="index.html">
+
+    <button>kembali ke index</button>
+
+  </a>
+
+</body>
+
 </html>
